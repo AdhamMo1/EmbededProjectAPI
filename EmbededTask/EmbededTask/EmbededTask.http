@@ -1,0 +1,6 @@
+@EmbededTask_HostAddress = http://localhost:5080
+
+GET {{EmbededTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "EmbededTask.Controllers.StudentController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Student/GetStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
