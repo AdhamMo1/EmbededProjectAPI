@@ -1,15 +1,12 @@
-Here's a template for your GitHub README file for your EmbeddedProjectApi. You can customize it based on your project details:
-
-
 ---
 
-EmbeddedProjectApi
+<h1>EmbeddedProjectApi</h1>
 
 EmbeddedProjectApi is a backend API designed for embedded systems integration, providing robust functionalities to manage, control, and communicate with hardware components.
 
-Features
+<h1>Features</h1>
 
-API for Embedded Systems: Supports communication with embedded devices, such as Arduino or other microcontrollers.
+<h3>API for Embedded Systems:</h3> Supports communication with embedded devices, such as Arduino or other microcontrollers.
 
 Modular Design: Easy to extend and adapt to specific hardware requirements.
 
