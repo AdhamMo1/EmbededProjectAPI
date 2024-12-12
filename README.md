@@ -7,27 +7,27 @@ EmbeddedProjectApi is an ASP.NET Core API designed to manage and control embedde
 
 ## Features
 
-API for Embedded Systems: Supports communication with embedded devices, such as Arduino or other microcontrollers.
+- API for Embedded Systems: Supports communication with embedded devices, such as Arduino or other microcontrollers.
 
-Modular Design: Easy to extend and adapt to specific hardware requirements.
+- Modular Design: Easy to extend and adapt to specific hardware requirements.
 
-Built with .NET Core: Leveraging the power of ASP.NET Core for performance and scalability.
+- Built with .NET Core: Leveraging the power of ASP.NET Core for performance and scalability.
 
-Database Support: Integrated with SQL Server for efficient data storage and retrieval.
+- Database Support: Integrated with SQL Server for efficient data storage and retrieval.
 
-Simulation Ready: Compatible with tools like MQTT protocols.
+- Simulation Ready: Compatible with tools like MQTT protocols.
 
 ---
 
 ## Tech Stack
 
-Backend: ASP.NET Core 8
+- Backend: ASP.NET Core 8
 
-Database: SQL Server
+- Database: SQL Server
 
-Programming Language: C#
+- Programming Language: C#
 
-Hardware Integration: Arduino Uno, Breadboard, DC Motor
+- Hardware Integration: Arduino Uno, Breadboard, DC Motor
 
 ---
 
@@ -35,7 +35,7 @@ Hardware Integration: Arduino Uno, Breadboard, DC Motor
 
 Prerequisites
 
-1. .NET SDK (Version 8.0 or later)
+1. .NET SDK ( Version 8.0 )
 
 
 2. SQL Server installed locally or on a cloud service.
