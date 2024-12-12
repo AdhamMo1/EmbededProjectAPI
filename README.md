@@ -29,6 +29,8 @@ EmbeddedProjectApi is an ASP.NET Core API designed to manage and control embedde
 
 - Hardware Integration: Arduino Uno, Breadboard, DC Motor
 
+- Protocol: MQTT ( Publisher, Subscriber and Borker )
+
 ---
 
 ## Getting Started
