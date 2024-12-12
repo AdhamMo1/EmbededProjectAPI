@@ -6,7 +6,7 @@ EmbeddedProjectApi is a backend API designed for embedded systems integration, p
 
 <h1>Features</h1>
 
-<h3>API for Embedded Systems:</h3> Supports communication with embedded devices, such as Arduino or other microcontrollers.
+API for Embedded Systems: Supports communication with embedded devices, such as Arduino or other microcontrollers.
 
 Modular Design: Easy to extend and adapt to specific hardware requirements.
 
