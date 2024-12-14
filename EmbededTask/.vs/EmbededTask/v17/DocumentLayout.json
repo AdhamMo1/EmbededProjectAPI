@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\EmbededProject\\EmbededTask\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0CC071A-DD46-4BD5-B167-8C17D9F334BF}|EmbededTask\\EmbededTask.csproj|d:\\embededproject\\embededtask\\embededtask\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0CC071A-DD46-4BD5-B167-8C17D9F334BF}|EmbededTask\\EmbededTask.csproj|solutionrelative:embededtask\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0CC071A-DD46-4BD5-B167-8C17D9F334BF}|EmbededTask\\EmbededTask.csproj|d:\\embededproject\\embededtask\\embededtask\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0CC071A-DD46-4BD5-B167-8C17D9F334BF}|EmbededTask\\EmbededTask.csproj|solutionrelative:embededtask\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\EmbededProject\\EmbededTask\\EmbededTask\\DTO\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "EmbededTask\\DTO\\ApiResponse.cs",
+              "ToolTip": "D:\\EmbededProject\\EmbededTask\\EmbededTask\\DTO\\ApiResponse.cs",
+              "RelativeToolTip": "EmbededTask\\DTO\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:01:06.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\EmbededProject\\EmbededTask\\EmbededTask\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "EmbededTask\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\EmbededProject\\EmbededTask\\EmbededTask\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "EmbededTask\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwD0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T20:41:57.589Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -23,13 +23,17 @@ namespace EmbededTask.Controllers
         [HttpGet("GetStudent")]
         public async Task<IActionResult> GetStudent()
         {
+            if(Subscriber.TagId == string.Empty)
+            {
+                return Ok(new ApiResponse() {Students = listOfStudent });
+            }
             var student = new Student();
             try
             {
                 student = await _context.Students.FirstOrDefaultAsync(prop => prop.RFIDTag_Id == Subscriber.TagId);
                 if(student == null)
                 {
-                    return NotFound(new ApiResponse() { Message = "Student Not found..", Students = listOfStudent });
+                    return NotFound(new ApiResponse() { Students = listOfStudent });
                 }
                 if (listOfStudent is not null)
                 {
@@ -38,7 +42,7 @@ namespace EmbededTask.Controllers
                         if (item.RFIDTag_Id == Subscriber.TagId)
                         {
                             Subscriber.TagId = string.Empty;
-                            return Ok(new ApiResponse() { Message = "Done Successfully!", Students = listOfStudent });
+                            return Ok(new ApiResponse() { Students = listOfStudent });
                         }
                     }
                 }
@@ -47,15 +51,15 @@ namespace EmbededTask.Controllers
             } 
             catch (Exception ex)
             {
-                return BadRequest(new ApiResponse() { Message = "Internal server error..", Students = listOfStudent });
+                return BadRequest(new ApiResponse() {  Students = listOfStudent });
             }
-            return Ok(new ApiResponse() { Message = "Done Successfully!", Students = listOfStudent });
+            return Ok(new ApiResponse() { Students = listOfStudent });
         }
         [HttpDelete("DeleteStudents")]
         public IActionResult deleteStudents()
         {
             listOfStudent = new List<Student>();
-            return Ok(new ApiResponse() { Message = "Delete Done.", Students = listOfStudent });
+            return Ok(new ApiResponse() { Students = listOfStudent });
         }
     }
 }
