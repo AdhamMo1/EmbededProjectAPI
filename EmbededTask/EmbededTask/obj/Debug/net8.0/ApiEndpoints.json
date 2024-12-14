@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "EmbededTask.Controllers.StudentController",
+    "Method": "deleteStudents",
+    "RelativePath": "api/Student/DeleteStudents",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmbededTask.Controllers.StudentController",
     "Method": "GetStudent",
     "RelativePath": "api/Student/GetStudent",
     "HttpMethod": "GET",

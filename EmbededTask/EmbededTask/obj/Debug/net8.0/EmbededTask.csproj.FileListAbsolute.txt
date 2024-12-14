@@ -143,3 +143,4 @@ D:\EmbededProject\EmbededTask\EmbededTask\bin\Debug\net8.0\runtimes\win\lib\net6
 D:\EmbededProject\EmbededTask\EmbededTask\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\EmbededProject\EmbededTask\EmbededTask\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\EmbededProject\EmbededTask\EmbededTask\bin\Debug\net8.0\MQTTnet.dll
+D:\EmbededProject\EmbededTask\EmbededTask\obj\Debug\net8.0\EmbededTask.sourcelink.json

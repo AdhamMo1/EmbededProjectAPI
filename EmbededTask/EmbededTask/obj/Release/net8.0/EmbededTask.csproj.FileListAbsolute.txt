@@ -143,3 +143,4 @@ D:\EmbededProject\EmbededTask\EmbededTask\obj\Release\net8.0\refint\EmbededTask.
 D:\EmbededProject\EmbededTask\EmbededTask\obj\Release\net8.0\EmbededTask.pdb
 D:\EmbededProject\EmbededTask\EmbededTask\obj\Release\net8.0\EmbededTask.genruntimeconfig.cache
 D:\EmbededProject\EmbededTask\EmbededTask\obj\Release\net8.0\ref\EmbededTask.dll
+D:\EmbededProject\EmbededTask\EmbededTask\obj\Release\net8.0\EmbededTask.sourcelink.json
