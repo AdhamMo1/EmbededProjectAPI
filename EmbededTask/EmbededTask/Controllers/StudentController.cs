@@ -1,5 +1,4 @@
 ﻿using EmbededTask.Data;
-using EmbededTask.DTO;
 using EmbededTask.Entities;
 using EmbededTask.MQTT_Subscriber;
 using Microsoft.AspNetCore.Mvc;
@@ -25,7 +24,7 @@ namespace EmbededTask.Controllers
         {
             if(Subscriber.TagId == string.Empty)
             {
-                return Ok(new ApiResponse() {Students = listOfStudent });
+                return Ok( listOfStudent );
             }
             var student = new Student();
             try
@@ -33,7 +32,7 @@ namespace EmbededTask.Controllers
                 student = await _context.Students.FirstOrDefaultAsync(prop => prop.RFIDTag_Id == Subscriber.TagId);
                 if(student == null)
                 {
-                    return NotFound(new ApiResponse() { Students = listOfStudent });
+                    return Ok(new {message ="Student not found",listOfStudent});
                 }
                 if (listOfStudent is not null)
                 {
@@ -42,7 +41,7 @@ namespace EmbededTask.Controllers
                         if (item.RFIDTag_Id == Subscriber.TagId)
                         {
                             Subscriber.TagId = string.Empty;
-                            return Ok(new ApiResponse() { Students = listOfStudent });
+                            return Ok(listOfStudent);
                         }
                     }
                 }
@@ -51,15 +50,15 @@ namespace EmbededTask.Controllers
             } 
             catch (Exception ex)
             {
-                return BadRequest(new ApiResponse() {  Students = listOfStudent });
+                return BadRequest(listOfStudent);
             }
-            return Ok(new ApiResponse() { Students = listOfStudent });
+            return Ok(listOfStudent);
         }
         [HttpDelete("DeleteStudents")]
         public IActionResult deleteStudents()
         {
             listOfStudent = new List<Student>();
-            return Ok(new ApiResponse() { Students = listOfStudent });
+            return Ok(listOfStudent);
         }
     }
 }
